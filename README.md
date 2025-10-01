@@ -25,7 +25,7 @@ source('scripts/part2_sales_regression.R')
 > All high-res images are under `/images`.
 
 **Model fit**
-![Actual vs Predicted](images/actual_vs_predicted.png)
+![Actual vs Predicted](images/actual_vs_predicted.png?raw=true)
 
 **Store drivers**
 ![Store Coefficients](images/store_coefficients.png)
