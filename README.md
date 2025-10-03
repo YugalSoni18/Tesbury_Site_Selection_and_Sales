@@ -31,7 +31,6 @@ source('scripts/part2_sales_regression.R')
 **WSM scenarios**  
 ![WSM — Scenario 1 (Cost priority)](images/wsm_scenario1_cost_priority.png)  
 ![WSM — Scenario 2 (Space & Security ×2)](images/wsm_scenario2_space_security_x2.png)  
-![WSM — Scenario 3 (24×7 enforced)](images/wsm_scenario3_24x7.png)
 
 **TOPSIS**  
 ![TOPSIS — Scenario 3 (24×7)](images/topsis_scenario3_24x7.png)
