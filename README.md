@@ -22,25 +22,27 @@ source('scripts/part2_sales_regression.R')
 ```
 ## Figures (quick view)
 
+> All high-res images are under `/images`.
+
 **Model fit**
-- <img src="https://raw.githubusercontent.com/YugalSoni18/Tesbury_Site_Selection_and_Sales/main/images/actual_vs_predicted.png" width="600" alt="Actual vs Predicted">
+![Actual vs Predicted](images/actual_vs_predicted.png)
 
 **Store drivers**
-- <img src="https://raw.githubusercontent.com/YugalSoni18/Tesbury_Site_Selection_and_Sales/main/images/store_coefficients.png" width="600" alt="Store Coefficients">
+![Store Coefficients](images/store_coefficients.png)
 
 **WSM scenarios**
-- <img src="https://raw.githubusercontent.com/YugalSoni18/Tesbury_Site_Selection_and_Sales/main/images/wsm_s1_cost_priority.png" width="600" alt="WSM — Scenario 1 (Cost priority)">
-- <img src="https://raw.githubusercontent.com/YugalSoni18/Tesbury_Site_Selection_and_Sales/main/images/wsm_s2_space_security_x2.png" width="600" alt="WSM — Scenario 2 (Space & Security x2)">
-- <img src="https://raw.githubusercontent.com/YugalSoni18/Tesbury_Site_Selection_and_Sales/main/images/wsm_s3_24x7_enforced.png" width="600" alt="WSM — Scenario 3 (24x7 enforced)">
+![WSM — Scenario 1 (Cost priority)](images/wsm_s1_cost_priority.png)  
+![WSM — Scenario 2 (Space & Security ×2)](images/wsm_s2_space_security_x2.png)  
+![WSM — Scenario 3 (24×7 enforced)](images/wsm_s3_24x7_enforced.png)
 
 **TOPSIS**
-- <img src="https://raw.githubusercontent.com/YugalSoni18/Tesbury_Site_Selection_and_Sales/main/images/topsis_s3_24x7.png" width="600" alt="TOPSIS — Scenario 3 (24x7)">
+![TOPSIS — Scenario 3 (24×7)](images/topsis_s3_24x7.png)
 
 **Sensitivity (utility margin + rank)**
-- <img src="https://raw.githubusercontent.com/YugalSoni18/Tesbury_Site_Selection_and_Sales/main/images/sensitivity_s1_cost_weight_utility.png" width="600" alt="S1 — Cost weight (utility)">
-- <img src="https://raw.githubusercontent.com/YugalSoni18/Tesbury_Site_Selection_and_Sales/main/images/sensitivity_s1_rank.png" width="600" alt="S1 — Rank vs cost weight">
-- <img src="https://raw.githubusercontent.com/YugalSoni18/Tesbury_Site_Selection_and_Sales/main/images/sensitivity_s2_importance_factor.png" width="600" alt="S2 — Importance factor (utility)">
-- <img src="https://raw.githubusercontent.com/YugalSoni18/Tesbury_Site_Selection_and_Sales/main/images/sensitivity_s2_rank.png" width="600" alt="S2 — Rank vs importance factor">
-- <img src="https://raw.githubusercontent.com/YugalSoni18/Tesbury_Site_Selection_and_Sales/main/images/sensitivity_s3_cost_weight.png" width="600" alt="S3 — Cost weight (utility)">
+![S1 — Cost weight (utility)](images/sensitivity_s1_cost_weight_utility.png)  
+![S1 — Rank vs cost weight](images/sensitivity_s1_rank.png)  
+![S2 — Importance factor (utility)](images/sensitivity_s2_importance_factor.png)  
+![S2 — Rank vs importance factor](images/sensitivity_s2_rank.png)  
+![S3 — Cost weight (utility)](images/sensitivity_s3_cost_weight.png)
 
 License: MIT (see LICENSE).
