@@ -22,27 +22,26 @@ source('scripts/part2_sales_regression.R')
 ```
 ## Figures (quick view)
 
-> All high-res images are under `/images`.
+**Model fit**  
+![Actual vs Predicted](images/actual_vs_predicted_sales.png)
 
-**Model fit**
-![Actual vs Predicted](images/actual_vs_predicted.png)
+**Store drivers**  
+![Store Coefficients](images/store_coefficients_by_store.png)
 
-**Store drivers**
-![Store Coefficients](images/store_coefficients.png)
+**WSM scenarios**  
+![WSM — Scenario 1 (Cost priority)](images/wsm_scenario1_cost_priority.png)  
+![WSM — Scenario 2 (Space & Security ×2)](images/wsm_scenario2_space_security_x2.png)  
+![WSM — Scenario 3 (24×7 enforced)](images/wsm_scenario3_24x7.png)
 
-**WSM scenarios**
-![WSM — Scenario 1 (Cost priority)](images/wsm_s1_cost_priority.png)  
-![WSM — Scenario 2 (Space & Security ×2)](images/wsm_s2_space_security_x2.png)  
-![WSM — Scenario 3 (24×7 enforced)](images/wsm_s3_24x7_enforced.png)
+**TOPSIS**  
+![TOPSIS — Scenario 3 (24×7)](images/topsis_scenario3_24x7.png)
 
-**TOPSIS**
-![TOPSIS — Scenario 3 (24×7)](images/topsis_s3_24x7.png)
-
-**Sensitivity (utility margin + rank)**
-![S1 — Cost weight (utility)](images/sensitivity_s1_cost_weight_utility.png)  
-![S1 — Rank vs cost weight](images/sensitivity_s1_rank.png)  
-![S2 — Importance factor (utility)](images/sensitivity_s2_importance_factor.png)  
-![S2 — Rank vs importance factor](images/sensitivity_s2_rank.png)  
-![S3 — Cost weight (utility)](images/sensitivity_s3_cost_weight.png)
+**Sensitivity (utility margin + rank)**  
+![S1 — Utility vs Cost weight](images/s1_utility_vs_weight_and_rank.png)  
+![S2 — Utility vs Importance factor](images/s2_utility_vs_importance_and_rank.png)  
+![S3 — Utility vs Cost weight](images/s3_utility_vs_weight_and_rank.png)  
+![S1 — Margin](images/sensitivity_s1_margin.png)  
+![S2 — Margin](images/sensitivity_s2_margin.png)  
+![S3 — Margin](images/sensitivity_s3_margin.png)
 
 License: MIT (see LICENSE).
